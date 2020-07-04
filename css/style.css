@@ -316,6 +316,34 @@ header p {
     padding-right: 3%;
 }
 
+/* 3down */
+
+.my-skills .skills-3down {
+    float:left;
+}
+
+.my-skills .skills-left-3down {
+    width: 33.3%;
+    /* display: inline-block; */
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+} 
+
+.my-skills .skills-center-3down { 
+    width: 33.3%;
+    display: inline-block;
+    float: left;
+}
+
+.my-skills .skills-right-3down {  
+    width: 33.3%;
+    display: inline-block;
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
 .my-skills i {
     font-size: 45px;
 }
@@ -328,7 +356,7 @@ header p {
 }
 
 @media only screen and (max-width:768px) {
-    .my-skills .skills-left-down, .my-skills .skills-center-down, .my-skills .skills-right-down   {
+    .my-skills .skills-left-down .skills-left-3down, .my-skills .skills-center-down .skills-center-3down, .my-skills .skills-right-down  .skills-right-3down   {
       width: 100%;
     }
 }
