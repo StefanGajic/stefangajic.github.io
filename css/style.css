@@ -86,9 +86,13 @@ nav:after {
 
 /* -------------------HEADER SECTION-------------------------- */
 
+header .welcome {
+    color: blue;
+}
+
  header {
-    background-image: url(../img/programmer1.jpg);
-    height: 650px;
+    background-image: url(../img/gocode.jpg);
+    height: 280px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -111,16 +115,13 @@ header p {
     margin: 15px 10px;
     font-weight: bold;
     border-radius: 20px;
-    text-decoration: none;
-    
-     
+    text-decoration: none;    
 }
 
 .btn-work {
     background-color: rgb(42, 133, 42, 0.6);   
     color: white;
     border: 2px solid white; 
-
 }
 
 .btn-work:hover {
@@ -159,7 +160,7 @@ header p {
 .about-me img {
      border-radius: 50%;
      height: 300px;
-     width: 330px;
+     width: auto;
   } 
 
 .about-me:after {
@@ -374,13 +375,13 @@ header p {
    
 }
 
-.my-projects:after{
+.my-experience:after{
     content: '';
     display: block;
     clear: both;
 }
 
-.my-projects h2{
+.my-experience h2{
     text-align: center;
     position: relative;
     margin-bottom: 50px;
@@ -388,7 +389,7 @@ header p {
 
 }
 
-.my-projects h2:after {
+.my-experience h2:after {
     content: '';
     position: absolute;
     width: 80px;
@@ -399,49 +400,14 @@ header p {
     background-color: rgb(42, 133, 42); 
 }
 
-.my-projects .project1,
-.my-projects .project2,
-.my-projects .project3 {
-    height: 300px;
-    width: 30%;
-    float: left;
-    position: relative;
-    overflow: hidden;
-}
-.my-projects .project1 {
-    margin-left: 2%;
-    margin-right: 1.5%;
-    background-image: url(../img/shop3.jpg);
-     background-position: center;
-    background-repeat:no-repeat;
-    background-size: contain;
-}
-.my-projects .project2 {
-    margin-left: 1%;
-    margin-right: 1%;
-    background-image: url(../img/javascript.jpg);
-    background-position: center; 
-    background-repeat:no-repeat;
-    background-size: cover;
-}
-.my-projects .project3 {
-    margin-left: 1.5%;
-    margin-right: 2%;
-    background-image: url(../img/RPG-maker-logo.jpg);
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: contain; 
-
-}
-
-.my-projects .overlay {
+.my-experience .overlay {
     width: 100%;
     height: 100%;
     position: absolute;
     padding-top: 300px;
 }
 
-.my-projects .overlay:hover {
+.my-experience .overlay:hover {
     padding-top: 130px;
     transition:  all 0.5s ease;
     background-color: rgba(0, 0, 0, 0.6);
@@ -457,50 +423,6 @@ header p {
     font-weight: bold;
 }
 
-/* modal */
-
-.modal {
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
-    padding-top: 100px; 
-    left: 0;
-    top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto;  
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4); 
-  }
-
- .modal-content {
-    position: relative; 
-     color: black;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #888;
-    width: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s
-
-  } 
-
-  .modal .modal-title {
-      color: white;
-  }
-
-  .modal .modal-body {
-    margin: 20px;
-  }
-
-  .modal .modal-footer {
-      padding: 20px;
-  }
-
 
   /* Add Animation */
 @-webkit-keyframes animatetop {
@@ -513,65 +435,7 @@ header p {
     to {top:0; opacity:1}
   }
   
-  /* The Close Button */
-  .close {
-    color: white;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .modal-header {
-    padding: 2px 16px;
-    background-color: rgb(42, 133, 42); 
-    color: white;
-  }
-  
-  .modal-body {padding: 2px 16px;}
-  
-  .modal-footer {
-    padding: 2px 16px;
-    background-color: rgb(42, 133, 42); 
-    color: white;
 
-  }
-
-  .modal-footer .btn-modal {
-    background-color: white;
-    color: rgb(42, 133, 42); 
-    font-weight: bold;
-    border-radius: 4px;
-    padding: 10px 18px;
-    text-decoration: none;  
-
-  }
-
-  .modal-footer .btn-modal:hover {
-    background-color: rgb(42, 133, 42); 
-    color: white;
-    font-weight: bold;
-    border-radius: 4px;
-    padding: 10px 18px;
-    text-decoration: none; 
-    border:1px solid white;
-
-  }
-
-    @media only screen and (max-width:800px) {
-    .my-projects .project1,
-    .my-projects .project2,
-    .my-projects .project3   {
-      width: 100%;
-      
-    }
-}
 
 /* -------------------CONTACT SECTION------------------------ */
 
