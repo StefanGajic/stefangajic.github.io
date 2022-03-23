@@ -1,0 +1,891 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans' , sans-serif;
+    color: #333;
+}
+
+h4 {
+    font-size: 21px;
+}
+
+h4, h5, h6 {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #777;
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    line-height: 1.7;
+    font-weight: 400;
+    font-family: 'Open Sans' , sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/*------------------- NAVIGATION SECTION--------------------- */
+nav {
+    background-color: rgb(42, 133, 42);  
+    text-align: center;
+}
+
+nav:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.logo {
+    margin: 20px; 
+}
+
+.menu {
+    margin: 20px; 
+}
+
+.logo, .menu {
+    display: inline-block;
+}
+
+.menu ul {   
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+   text-decoration: none;
+   padding:20px 10px 20px 10px;
+   color: white;
+}
+
+.menu ul li a:hover {
+     color: rgb(42, 133, 42);  
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+.img-container p{
+    color: #333;
+    font-size: 20px;
+}
+
+/* -------------------HEADER SECTION-------------------------- */
+
+ header {
+    background-image: url(../img/programmer1.jpg);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -100px;
+    width: 100%;
+} 
+
+header p {
+    margin: 0px;
+}
+
+.img-container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.btn-work, .btn-contact {
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 15px 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+    
+     
+}
+
+.btn-work {
+    background-color: rgb(42, 133, 42, 0.6);   
+    color: white;
+    border: 2px solid white; 
+
+}
+
+.btn-work:hover {
+    background-color: white;
+    color: rgb(42, 133, 42); 
+    border: 2px solid rgb(42, 133, 42);
+    transition: all 0.5s ease;
+    opacity: 1.0;
+}
+
+.btn-contact {
+    background-color: rgb(255, 255, 255, 0.6);
+    color: rgb(42, 133, 42);  
+    border: 2px solid rgb(42, 133, 42);   
+}
+
+.btn-contact:hover {
+    background-color: rgb(42, 133, 42);    
+    color: white;
+    border: 2px solid white; 
+    transition: all 0.5s ease;
+    opacity: 1.0;
+}
+
+
+/* -------------------ABOUT ME SECTION-------------------------- */
+
+.about-me {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+.about-me img {
+     border-radius: 50%;
+     height: 300px;
+     width: 330px;
+  } 
+
+.about-me:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+ .about-me h2 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+} 
+
+.about-me h2:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: -15px;
+    background-color: rgb(42, 133, 42); 
+}
+
+.about-me .col-left, .about-me .col-right {
+    width: 50%;
+    float: left;
+}
+
+.about-me .col-right {
+    width: 50%;
+    float: right; 
+} 
+
+.about-me .col-left {
+    padding-left: 5%;
+    padding-top: 20px;
+}   
+
+
+.about-me a {
+    background-color: rgb(42, 133, 42);  
+    color: white; 
+    padding: 10px 25px;
+    margin: 15px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.about-me a:hover {
+    background-color:whitesmoke; 
+    color:rgb(42, 133, 42);  
+    border: 2px solid rgb(42, 133, 42);
+    transition: all 0.5s ease;
+
+}
+
+.about-me .col-left img {
+    margin-bottom:10px;
+}
+
+@media only screen and (max-width:768px) {
+    .about-me .col-left, .about-me .col-right  {
+      width: 100%;
+    }
+}
+
+/* -------------------MY SKILLS SECTION------------------------ */
+
+.my-skills {
+    background-color: #e2e2e2;
+    padding-top: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.my-skills h2 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+} 
+
+.my-skills h2:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: -15px;
+    background-color: rgb(42, 133, 42); 
+}
+
+.my-skills:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.my-skills .skills-up {
+    width: 100%;
+    float: left;
+}
+
+.my-skills .skills-left {
+    width: 33.3%;
+    display: inline-block;
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+} 
+
+.my-skills .skills-center { 
+    width: 33.3%;
+    display: inline-block;
+    float: left;
+}
+
+.my-skills .skills-right {  
+    width: 33.3%;
+    display: inline-block;
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+/* down */
+
+.my-skills .skills-down {
+    float:left;
+}
+
+.my-skills .skills-left-down {
+    width: 33.3%;
+    /* display: inline-block; */
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+} 
+
+.my-skills .skills-center-down { 
+    width: 33.3%;
+    display: inline-block;
+    float: left;
+}
+
+.my-skills .skills-right-down {  
+    width: 33.3%;
+    display: inline-block;
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+/* 3down */
+
+.my-skills .skills-3down {
+    float:left;
+}
+
+.my-skills .skills-left-3down {
+    width: 33.3%;
+    /* display: inline-block; */
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+} 
+
+.my-skills .skills-center-3down { 
+    width: 33.3%;
+    display: inline-block;
+    float: left;
+}
+
+.my-skills .skills-right-3down {  
+    width: 33.3%;
+    display: inline-block;
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.my-skills i {
+    font-size: 45px;
+}
+
+
+@media only screen and (max-width:768px) {
+    .my-skills .skills-left, .my-skills .skills-center, .my-skills .skills-right   {
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .my-skills .skills-left-down .skills-left-3down, .my-skills .skills-center-down .skills-center-3down, .my-skills .skills-right-down  .skills-right-3down   {
+      width: 100%;
+    }
+}
+
+
+/* -------------------MY PROJECTS SECTION------------------------ */
+
+.my-projects {
+    background-color: white;
+    padding-top:50px;
+    padding-bottom: 50px;
+    text-align: center;
+   
+}
+
+.my-projects:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.my-projects h2{
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top:0;
+
+}
+
+.my-projects h2:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: -15px;
+    background-color: rgb(42, 133, 42); 
+}
+
+.my-projects .project1,
+.my-projects .project2,
+.my-projects .project3 {
+    height: 300px;
+    width: 30%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.my-projects .project1 {
+    margin-left: 2%;
+    margin-right: 1.5%;
+    background-image: url(../img/shop3.jpg);
+     background-position: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.my-projects .project2 {
+    margin-left: 1%;
+    margin-right: 1%;
+    background-image: url(../img/javascript.jpg);
+    background-position: center; 
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.my-projects .project3 {
+    margin-left: 1.5%;
+    margin-right: 2%;
+    background-image: url(../img/RPG-maker-logo.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: contain; 
+
+}
+
+.my-projects .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-top: 300px;
+}
+
+.my-projects .overlay:hover {
+    padding-top: 130px;
+    transition:  all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.overlay a{
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* modal */
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;  
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+
+ .modal-content {
+    position: relative; 
+     color: black;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+
+  } 
+
+  .modal .modal-title {
+      color: white;
+  }
+
+  .modal .modal-body {
+    margin: 20px;
+  }
+
+  .modal .modal-footer {
+      padding: 20px;
+  }
+
+
+  /* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: rgb(42, 133, 42); 
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: rgb(42, 133, 42); 
+    color: white;
+
+  }
+
+  .modal-footer .btn-modal {
+    background-color: white;
+    color: rgb(42, 133, 42); 
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px 18px;
+    text-decoration: none;  
+
+  }
+
+  .modal-footer .btn-modal:hover {
+    background-color: rgb(42, 133, 42); 
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px 18px;
+    text-decoration: none; 
+    border:1px solid white;
+
+  }
+
+    @media only screen and (max-width:800px) {
+    .my-projects .project1,
+    .my-projects .project2,
+    .my-projects .project3   {
+      width: 100%;
+      
+    }
+}
+
+/* -------------------CONTACT SECTION------------------------ */
+
+.contact-section {
+    text-align: center;
+    background-color: #e2e2e2;
+    padding-top: 50px;
+    padding-top: 50px;
+}
+
+.contact-section:after{
+    content: '';
+    display: block;
+    clear: both;
+} 
+
+.contact-section h2{
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top:0;
+
+}
+
+.contact-section h2:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: -15px;
+    background-color: rgb(42, 133, 42); 
+}
+
+
+.social-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 25%;
+}
+
+
+.social-container i {
+    float:left;
+    margin-top: 10px;
+    margin-right: 15px;
+    font-size: 30px;
+    color: rgb(42, 133, 42); 
+}
+
+.col-1 a { 
+
+text-decoration: none;
+color: rgb(42, 133, 42); 
+} 
+
+.col-1 a:hover { 
+
+color: rgb(42, 133, 42); 
+font-weight: 600;
+
+} 
+
+.col-1 {
+    width: 50%;
+    float: left;
+    position: relative;
+ }
+
+ .col-2 {   
+    width: 50%;
+    float: right;
+    position: relative;
+} 
+
+.col-2 a { 
+
+    text-decoration: none;
+    color: rgb(42, 133, 42); 
+    } 
+    
+.col-2 a:hover { 
+    
+    color: rgb(42, 133, 42); 
+    font-weight: 600;
+    
+    } 
+
+.text-bold {
+    color:#333;
+    font-weight: bold;
+}
+
+/* form */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(42, 133, 42); 
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  @media only screen and (max-width:768px) {
+    .social-container .col-1, .social-container .col-2   {
+      width: 100%;
+    }
+}
+
+
+/* -------------------FOOTER SECTION------------------------ */
+
+
+footer {
+    background-color: #777777;
+    color: #333;
+    padding: 10px 20px;
+}
+
+footer:after {
+    content: '';
+    display: block;
+    clear: both;
+} 
+
+.footer-text p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+
+} 
+
+.social a {
+    text-decoration: none;
+    color: #333;
+}
+
+.social i {
+    font-size: 25px;
+}
+
+.social a:hover {
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.social {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+
+} 
+
+/* -------------------Animations------------------------ */
+
+.wp1, .wp1 + h1 {
+    animation-duration: 3s;
+}
+
+.my-skills {
+    opacity: 0;
+}
+
+
+
+/* -------------------Hamburger Menu------------------------ */
+
+.hamburger {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .menu {
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 30px;
+    }
+
+     nav::after {
+        content: none;
+    } 
+
+    nav .logo {
+        margin:0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger:hover {
+       cursor: pointer;
+    }
+
+    .hamburger .line {
+        width: 50px;
+        height: 5px;
+        display: block !important;
+        background-color: white;
+        margin: 8px auto;
+        transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        
+    }
+
+    .hamburger.is-active .line:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.is-active .line:nth-child(1){
+        transform: translateY(13px) rotate(45deg);
+        -moz-transition: translateY(13px) rotate(45deg);
+        -webkit-transition: translateY(13px) rotate(45deg);
+        -o-transition: translateY(13px) rotate(45deg);
+    }
+
+    .hamburger.is-active .line:nth-child(3){
+        transform: translateY(-13px) rotate(-45deg);
+        -moz-transition: translateY(-13px) rotate(-45deg);
+        -webkit-transition: translateY(-13px) rotate(-45deg);
+        -o-transition: translateY(-13px) rotate(-45deg); 
+    }
+
+    .mobile-menu {
+        background-color: grey;
+
+    }
+
+    .mobile-menu ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        list-style: none;
+    }
+    .mobile-menu ul li:hover {
+        background-color: rgb(42, 133, 42); 
+        text-decoration: none;
+        
+    }
+
+    .mobile-menu ul li a {
+        color:white;
+        text-decoration: none;
+    }
+
+
+}
+
