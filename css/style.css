@@ -291,7 +291,8 @@ header p {
 /* down */
 
 .my-skills .skills-down {
-    float:left;
+    width: 100%;
+    float: left;
 }
 
 .my-skills .skills-left-down {
@@ -319,7 +320,8 @@ header p {
 /* 3down */
 
 .my-skills .skills-3down {
-    float:left;
+    width: 100%;
+    float: left;
 }
 
 .my-skills .skills-left-3down {
@@ -362,9 +364,9 @@ header p {
 }
 
 
-/* -------------------MY PROJECTS SECTION------------------------ */
+/* -------------------MY EXPERIENCE SECTION------------------------ */
 
-.my-projects {
+.my-experience {
     background-color: white;
     padding-top:50px;
     padding-bottom: 50px;
