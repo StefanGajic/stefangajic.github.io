@@ -88,9 +88,10 @@ nav:after {
 /* -------------------ABOUT ME SECTION-------------------------- */
 
 .about-me {
-    width: 80%;
+    width: 100%;
     /* padding-top: 10px; */
     padding-bottom: 20px;
+    padding-right: 100px;
     text-align: center;
 }
 
@@ -98,8 +99,9 @@ nav:after {
 .about-me img {
      border-radius: 50%;
      height: 300px;
+     padding-bottom: 80px;
      width: auto;
-  } 
+  }
 
 .about-me:after {
     content: '';
