@@ -91,8 +91,11 @@ nav:after {
     width: 100%;
     /* padding-top: 10px; */
     padding-bottom: 20px;
-    padding-right: 100px;
     text-align: center;
+}
+
+.col-right{
+    padding-right: 100px;
 }
 
 
