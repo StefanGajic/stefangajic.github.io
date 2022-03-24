@@ -84,75 +84,13 @@ nav:after {
     font-size: 20px;
 }
 
-/* -------------------HEADER SECTION-------------------------- */
-
-header .welcome {
-    color: blue;
-}
-
- header {
-    background-image: url(../img/gocode.jpg);
-    height: 280px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-y: -100px;
-    width: 100%;
-} 
-
-header p {
-    margin: 0px;
-}
-
-.img-container {
-    text-align: center;
-    padding-top: 50px;
-}
-
-.btn-work, .btn-contact {
-    display: inline-block;
-    padding: 10px 25px;
-    margin: 15px 10px;
-    font-weight: bold;
-    border-radius: 20px;
-    text-decoration: none;    
-}
-
-.btn-work {
-    background-color: rgb(42, 133, 42, 0.6);   
-    color: white;
-    border: 2px solid white; 
-}
-
-.btn-work:hover {
-    background-color: white;
-    color: rgb(42, 133, 42); 
-    border: 2px solid rgb(42, 133, 42);
-    transition: all 0.5s ease;
-    opacity: 1.0;
-}
-
-.btn-contact {
-    background-color: rgb(255, 255, 255, 0.6);
-    color: rgb(42, 133, 42);  
-    border: 2px solid rgb(42, 133, 42);   
-}
-
-.btn-contact:hover {
-    background-color: rgb(42, 133, 42);    
-    color: white;
-    border: 2px solid white; 
-    transition: all 0.5s ease;
-    opacity: 1.0;
-}
-
 
 /* -------------------ABOUT ME SECTION-------------------------- */
 
 .about-me {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    width: 80%;
+    /* padding-top: 10px; */
+    padding-bottom: 20px;
     text-align: center;
 }
 
