@@ -89,8 +89,7 @@ nav:after {
 
 .about-me {
     width: 100%;
-    /* padding-top: 10px; */
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -177,8 +176,8 @@ nav:after {
 
 .my-skills {
     background-color: #e2e2e2;
-    padding-top: 50px;
-    padding-top: 50px;
+    padding-top: 10px;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -312,8 +311,8 @@ nav:after {
 
 .my-experience {
     background-color: white;
-    padding-top:50px;
-    padding-bottom: 50px;
+    padding-top:10px;
+    padding-bottom: 10px;
     text-align: center;
    
 }
@@ -385,8 +384,8 @@ nav:after {
 .contact-section {
     text-align: center;
     background-color: #e2e2e2;
-    padding-top: 50px;
-    padding-top: 50px;
+    padding-top: 10px;
+    padding-top: 10px;
 }
 
 .contact-section:after{
