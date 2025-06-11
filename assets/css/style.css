@@ -359,6 +359,64 @@ body {
     margin-bottom: 0;
   }
 
+  .about .about-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+  }
+  
+  .about .about-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+  }
+  
+  .about .about-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+  }
+  
+  .about .about-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .about .about-item ul {
+    padding-left: 20px;
+  }
+  
+  .about .about-item ul li {
+    padding-bottom: 10px;
+  }
+  
+  .about .about-item:last-child {
+    padding-bottom: 0;
+  }
+  
+  .about.about-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+  }
+
   
   /*--------------------------------------------------------------
   # Skills
@@ -387,7 +445,7 @@ body {
     position: relative;
   }
   
-  .resume .resume-item h4 {
+  .resume .resume-item {
     line-height: 18px;
     font-size: 18px;
     font-weight: 600;
@@ -397,7 +455,7 @@ body {
     margin-bottom: 10px;
   }
   
-  .resume .resume-item h5 {
+  .resume .resume-item {
     font-size: 16px;
     background: #e4edf9;
     padding: 5px 15px;
@@ -406,7 +464,7 @@ body {
     margin-bottom: 10px;
   }
   
-  .resume .resume-item ul {
+  .resume .resume-item {
     padding-left: 20px;
   }
   
