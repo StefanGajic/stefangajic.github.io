@@ -829,3 +829,60 @@ body {
     color: #fff;
   }
   
+
+  .card-img-top {
+    max-width: 100%;      /* max width of container */
+    max-height: 200px;    /* limit height so images are similar height */
+    height: auto;         /* keep aspect ratio */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.05); /* zoom on hover */
+  }
+  
+  
+  .btn-custom {
+    background-color: #198754;
+    border-color: #198754;
+    color: #fff;
+  }
+  
+  .btn-custom:hover, 
+  .btn-custom:focus {
+    background-color: #145c32;  /* Darker green on hover */
+    border-color: #145c32;
+    color: #fff;
+  }
+  
+
+  .card-img-container {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 220px;
+    overflow: visible;
+    border-radius: 12px;
+    border: 1px solid #ddd;  /* subtle light border */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* soft shadow */
+    background-color: transparent; /* no background */
+  }
+  
+  .card-img-container img {
+    max-width: 100%;
+    max-height: 180px; /* keep images smaller than container */
+    height: auto;
+    object-fit: contain; /* no cropping */
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-img-container:hover img {
+    transform: scale(1.05);
+  }
+  
