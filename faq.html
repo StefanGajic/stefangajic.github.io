@@ -34,36 +34,32 @@
 
 <body>
 
-  <nav id="top-nav" class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #040b14;">
-   <div class="container">
-     <a class="navbar-brand" href="#hero">
-       <img src="assets/img/logoColorTransparent.png" alt="DeskStrong Logo" style="height: 40px;">
-     </a>
- 
-
-     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-     </button>
- 
-
-     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-       <ul class="navbar-nav">
-         <li class="nav-item"><a class="nav-link scrollto" href="index.html">Home</a></li>
-         <li class="nav-item"><a class="nav-link scrollto" href="index.html#resume">Services</a></li>
-         <li class="nav-item"><a class="nav-link scrollto" href="index.html#portfolio">Blog</a></li>
-         <li class="nav-item"><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
-         <li class="nav-item"><a class="nav-link scrollto" href="faq.html">FAQ</a></li>
-       </ul>
-     </div>
-   </div>
- </nav> 
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #040b14;">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/img/logoColorTransparent.png" alt="DeskStrong Logo" style="height: 40px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="plans.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
  
 
  <!-- ======= Mobile nav toggle button ======= -->
  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-  <main id="main">
+ <main class="mt-5 pt-5">
 
 <!-- ======= FAQ Section ======= -->
 <section id="faq" class="faq section-bg">
@@ -198,18 +194,40 @@
         <div class="text-center">
           <h4>Book a Free Intro Call</h4>
           <p>Click below to schedule your 30-minute consultation:</p>
-          <a href="https://stefandeskstrong.zohobookings.eu/" target="_blank" class="btn btn-success" style="padding: 10px 25px; margin-top: 10px;">Book via Zoho</a>
+      
+                  <!-- Calendly Inline Embed -->
+          <div
+          class="calendly-inline-widget" 
+          data-url="https://calendly.com/coach-stefandeskstrong/30min" 
+          style="min-width:320px; height:630px;">
         </div>
+        <script 
+          type="text/javascript" 
+          src="https://assets.calendly.com/assets/external/widget.js" 
+          async>
+        </script>
+        
       </div>
-
     </div>
-  </section>
-
+  </div>
+</section>
    
 <!-- End Contact Section -->
 
 
-  </main><!-- End #main -->
+  </main>
+  <!-- End #main -->
+
+    <!-- Start of Footer -->
+    <footer class="footer bg-dark text-light py-4">
+      <div class="container text-center">
+        <small>
+          &copy; 2025 DeskStrong. All rights reserved.
+          | <a href="terms-and-policy.html" class="text-decoration-none text-warning">Terms & Conditions</a>
+        </small>
+      </div>
+    </footer>
+    <!-- End Footer Section -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
